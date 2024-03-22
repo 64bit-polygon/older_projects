@@ -1,0 +1,1 @@
+<?php get_header(); $url = get_category_link(get_the_category()[0]->cat_ID); wp_redirect( $url, 301 ); exit; get_footer(); ?>

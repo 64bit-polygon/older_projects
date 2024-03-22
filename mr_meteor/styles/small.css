@@ -1,0 +1,46 @@
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+   ::i-block-chrome,iframe {
+      -webkit-transform-style: preserve-3d;
+      z-index: 11;
+   }
+   ::i-block-chrome,.menu_backing {
+      z-index: 1;
+   }
+   ::i-block-chrome,.art_text,
+   ::i-block-chrome,.about_text,
+   ::i-block-chrome,.comics_text,
+   ::i-block-chrome,.contact_icon,
+   ::i-block-chrome,.animation_text {
+      z-index: 1;
+   }
+}
+
+.contact_form {
+   bottom: 2.8em;
+}
+
+.email_wrap {
+   right: 2.7em;
+}
+
+.progress {
+   right: 1.7em;
+}
+
+.to_input,
+.from_input_ghost,
+.subject_input_ghost {
+   top: 0.1em;
+}
+
+.scroll_ghost {
+   bottom: 0;
+}
+
+.video_wrap {
+   top: -1.5em;
+}
+
+.art_piece_wrap {
+   border-top: 3em solid transparent;
+}

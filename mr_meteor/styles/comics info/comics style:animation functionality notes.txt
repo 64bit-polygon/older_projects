@@ -1,0 +1,217 @@
+ideals for 222px panel width
+1 col:
+   viewp w: 284
+   comic w: 256
+   panel m: 4
+   comic p: 10
+   
+viewp: 277
+comic: 250
+panel m: 4
+comic p: 10
+   
+2 col:
+   viewp w: 560
+   comic w: 504
+   panel m: 6
+   comic p: 20
+
+viewp w: 550 (-10)
+comic w: 495
+panel m: 6
+comic p: 20
+
+3 col:
+   viewp w: 860
+   comic w: 774
+   panel m: 8
+   comic p: 30
+
+viewp w: 823
+comic w: 740
+panel m: 8
+comic p: 29
+
+4 col:
+   viewp w: 1169
+   comic w: 1052
+   panel m: 10
+   comic p: 42
+   
+viewp w: 1095
+comic w: 986
+panel m: 10
+comic p: 39
+5 col:
+   viewp w: 1496
+   comic w: 1346
+   panel m: 12
+   comic p: 54
+
+viewp w: 1368
+comic w: 1231
+panel m: 12
+comic p: 49
+
+margin = 4 + (2 * i)//css
+marginw = margin * 2//calc
+panelw = panel * i
+comicp = (marginw + panelw) * 0.0427448340561
+comicw = marginw + panelw + comicp
+viewp = comicw * 1.111111111111
+
+
+x = 0.0427448340561
+
+8 + 224 = 232
+232 * x = 10
+x = 0.04310344827586
+
+24 + 448 = 472
+472 * x = 20
+x = 0.04237288135593
+
+48 + 672 = 720
+720 * x = 30
+x = 0.04166666666667
+
+80 + 896 = 976
+976 * x = 42
+x = 0.04303278688525
+
+120 + 1120 = 1240
+1240 * x = 54
+x = 0.04354838709677
+
+widths from last night:
+#comics_page_renaissance-times
+min-width: 0
+max-width: 284
+comic width: 258
+
+min-width: 285
+max-width: 584
+comic width: 528
+
+min-width: 585
+max-width: 900
+comic width: 810
+
+min-width: 901
+max-width: 1232
+comic width: 1104
+
+min-width: 1233
+max-width: 1580
+comic width: 1410
+
+<section class="comics_group">
+body > section
+.comics_group{
+   position: relative;    
+   z-index: -1;           
+   width:400%;            //Dynamic
+}
+
+<article class="comics_page_wrap [irregular_comic_layout]" style="[left:0, otherwise empty]">
+body > section > article
+.comics_page_wrap{
+   position: absolute;   
+   opacity: 0;           
+   width: 25%;        //Dynamic
+}
+
+<figure class="comics_page">
+body > section > article > figure
+.comics_page{
+   position: relative;    
+   width: 90%;            
+   
+   background: #fff;      
+   -webkit-box-shadow: 0 0 1em rgba(37%,40%,40%,0.36);
+   -moz-box-shadow:    0 0 1em rgba(37%,40%,40%,0.36);
+   box-shadow:         0 0 1em rgba(37%,40%,40%,0.36);
+}
+.irregular_comic_layout > .comics_page {
+   background: transparent;   
+   -webkit-box-shadow: none;  
+   -moz-box-shadow:    none;  
+   box-shadow:         none;  
+}
+
+<ol class="the_comic clearfix">
+body > section > article > figure > ol
+.the_comic {
+   *zoom: 1;
+   list-style: none;
+   padding: 1em 4%;
+   margin-top: 6em;
+}
+.irregular_comic_layout .the_comic {
+   margin-top: 4.1em;
+}
+
+<li class="comics_panel_wrap">
+body > section > article > figure > ol > li
+.comics_panel_wrap {
+   float: left; 
+   margin: 1%;
+   position: relative;
+}
+#the_comic_quality-time .comics_panel_wrap{//no need for dynamic w/h as !important trumps it
+   width: auto !important;
+   height: auto !important;   
+   
+   float: none;                
+   margin: 1em;                
+}
+#the_comic_renaissance-times .comics_panel_wrap{
+   width:224px;        //dynamic 
+   height:216px;       //dynamic
+}
+#the_comic_croatia .comics_panel_wrap{
+   width:210px;        //dynamic
+   height:188px;       //dynamic
+}
+#the_comic_art-supply .comics_panel_wrap{
+   width:219px;        //dynamic
+   height:195px;       //dynamic
+}
+
+<img class="comics_panel">
+body > section > article > figure > ol > li > img
+.comics_panel{
+   left: 0;             
+   position: absolute;  
+   top: 0;              
+}
+#comics_page_quality-time{
+   max-width:691.9px;   //Dynamic
+}
+#art-supply_13{
+   width:457px;         //Dynamic
+   height:195px;        //Dynamic
+}
+#art-supply_img_13{
+   
+   top:-35px;           //Dynamic
+}
+#quality-time_img_1,
+#quality-time_img_2{
+   background: #fff;          
+   display: block;            
+   padding: 5%;               
+   width: 100%;               
+   width: calc(100% - 2em);   
+   max-width:629px;           //Dynamic
+   -webkit-box-shadow: 0 0 1em rgba(37%,40%,40%,0.36);   
+   -moz-box-shadow:    0 0 1em rgba(37%,40%,40%,0.36);   
+   box-shadow:         0 0 1em rgba(37%,40%,40%,0.36);   
+   
+   position: relative;        
+}
+#quality-time_img_2{
+  
+   max-width: //not set
+   padding: 6.5em 5% 5% 5%;   //Different from _1, set in main style       
+}

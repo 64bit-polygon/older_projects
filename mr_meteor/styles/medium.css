@@ -1,0 +1,105 @@
+header { 
+   left: 0; 
+}
+
+.no-js header { 
+   left: 5.4em; 
+}
+
+.header_drop_shadow {
+   left: 0;
+}
+
+.header_drop_shadow:before {
+   display: none;
+}
+
+.to_splash_wrap { 
+   left: -16.5em; 
+}
+
+.no-js .to_splash_wrap { 
+   left: -10.8em;
+}
+
+.art_heading + .nav_archive > .category_nav {
+   right: 4.3em;
+}
+
+.animation_heading + .nav_archive > .category_nav {
+   right: 11.5em;
+}
+
+.comics_heading + .nav_archive > .category_nav {
+   right: 8.1em;
+}
+
+.about_heading + .nav_page > .category_nav {
+   right: 7.1em;
+}
+
+.contact_heading + .nav_page > .category_nav,
+.feedback_heading + .nav_page > .category_nav {
+   right: 9.8em;
+}
+
+.category_nav {
+   height: 2.9em;
+   float: right;
+}
+
+.no-js .category_nav {
+   float: left;
+   right: 0 !important;
+}
+
+.info_nav {
+   bottom: 0;
+   right: 0;
+   width: 11.3em;
+   padding: 0.3em 0 0 0.3em;
+   background: url(../style_imgs/paper.png);
+}
+
+.art_piece_wrap {
+   border-bottom: 2.9em solid transparent;
+}
+
+.comics_header + .info_nav {
+   -webkit-box-shadow: 0 0 0.5em rgba(37%,40%,40%,0.56);
+   -moz-box-shadow:    0 0 0.5em rgba(37%,40%,40%,0.56);
+   box-shadow:         0 0 0.5em rgba(37%,40%,40%,0.56);
+}
+
+.scroll_ghost {
+   bottom: 3em;
+}
+
+.video_wrap {
+   top: -3em;
+}
+
+/* then remove these classes when the menu hides */
+.no-mobile .z_neg_one {
+	z-index: -1;
+}
+
+
+.no-mobile .z_neg_one.from_input_ghost,
+.no-mobile .z_neg_one.email_message_ghost,
+.no-mobile .z_neg_one.subject_input_ghost {
+	z-index: 100 !important;
+}
+
+.no-mobile .z_neg_one.email_button {
+	z-index: 1000 !important;
+}
+
+.no-mobile .z_neg_one.clicked.email_button {
+	z-index: -1 !important;
+}
+
+.no-mobile .z_neg_one.progress,
+.no-mobile .z_neg_one.submit_text {
+	z-index: auto !important;
+}

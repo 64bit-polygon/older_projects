@@ -1,0 +1,123 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+form {
+	position: fixed;
+	z-index: 10;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	background-color: rgba( 100%, 100%, 100%, 0.85 );
+	border-top: 1px solid rgba( 0, 0, 0, 0.75 );
+
+	-webkit-transition: background-color 200ms;
+	-moz-transition:    background-color 200ms;
+	-o-transition:      background-color 200ms;
+	transition:         background-color 200ms;
+}
+
+form:hover {
+	background-color: rgba( 100%, 100%, 100%, 1 );
+}
+
+textarea {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	height: 78px;
+	width: 838px;
+	padding: 10px;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 12px;
+	line-height: 1.4;
+	border: 1px solid #000;
+	border-radius: 0;
+	outline: none;
+	box-shadow: none;
+	overflow: auto;
+	resize: none;
+
+	-webkit-transition: border-color 200ms;
+	-moz-transition:    border-color 200ms;
+	-o-transition:      border-color 200ms;
+	transition:         border-color 200ms;
+}
+
+textarea.invalid {
+	border-color: rgb( 100%, 0%, 0% );
+}
+
+button {
+	position: absolute;
+	left: 852px;
+	height: 37px;
+	line-height: 37px;
+	background: none;
+	background-color: #fff;
+	box-shadow: none;
+	border: 1px solid #000;
+	text-align: center;
+	cursor: pointer;
+	color: inherit;
+	font: inherit;
+	line-height: normal;
+	overflow: visible;
+	padding: 0;
+	border-radius: 0;
+	-webkit-user-select: none;
+	-moz-user-select:    none;
+	-ms-user-select:     none;
+	font-family: 'Andale Mono', monospace;
+	font-size: 16px;
+	width: 115px;
+
+	-webkit-transition: background-color 100ms,
+											color 100ms;
+	-moz-transition:    background-color 100ms,
+											color 100ms;
+	-o-transition:      background-color 100ms,
+											color 100ms;
+	transition:         background-color 100ms,
+											color 100ms;
+}
+
+button:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+#scrambleMessage {
+	top: 10px;
+}
+
+#descrambleMessage {
+	bottom: 10px;
+}
+
+h1 {
+	font-family: 'Andale Mono', monospace;
+	font-weight: normal;
+	line-height: 1;
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #000;
+}
+
+#results {
+	position: relative;
+	padding-bottom: 120px;
+	font-family: 'Andale Mono', monospace;
+}

@@ -1,0 +1,72 @@
+<style id="comics_media_queries">
+
+   //1 COL
+   @media(min-width: 0px) and (max-width: 554px){
+      #comics_page_renaissance-times{
+         width:25em;
+      } 
+      #the_comic_renaissance-times{
+         padding-left:0.9em;
+         padding-right:0.9em;
+      }
+      #the_comic_renaissance-times > .comics_panel_wrap{
+         margin:0.4em;
+      }
+   }
+   
+   //2 COL
+   @media(min-width: 555px) and (max-width: 830px){
+      #comics_page_renaissance-times{
+         width:49.8em;//472
+      }
+      #the_comic_renaissance-times{
+         padding-left:1.9em;
+         padding-right:1.9em;
+      }
+      #the_comic_renaissance-times > .comics_panel_wrap{
+         margin:0.6em;
+      }
+   }
+   
+   //3 COL
+   @media(min-width: 831px) and (max-width: 1105px){
+      #comics_page_renaissance-times{
+         width:74.6em;
+      } 
+      #the_comic_renaissance-times{
+         padding-left:2.9em;
+         padding-right:2.9em;
+      }
+      #the_comic_renaissance-times > .comics_panel_wrap{
+         margin:0.8em;
+      }
+   }
+   
+   //4 COL
+   @media(min-width: 1106px) and (max-width: 1381px){
+      #comics_page_renaissance-times{
+         width:99.4em;
+      }
+      #the_comic_renaissance-times{
+         padding-left:3.9em;
+         padding-right:3.9em;
+      }
+      #the_comic_renaissance-times > .comics_panel_wrap{
+         margin:1em;
+      }
+   }
+   
+   //5 COL
+   @media(min-width: 1382px) {
+      #comics_page_renaissance-times{
+         width:124em;
+      }
+      #the_comic_renaissance-times{
+         padding-left:4.8em;
+         padding-right:4.8em;
+      }
+      #the_comic_renaissance-times > .comics_panel_wrap{
+         margin:1.2em;
+      }
+   }
+</style>
