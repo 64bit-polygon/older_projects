@@ -1,6 +1,6 @@
-# [← Back to older projects list](https://gitfront.io/r/64bitpolygon/QjN93Jc5xUXw/links/)
-
 # About
+
+To see the code click [here](https://github.com/64bit-polygon/older_projects/tree/main/fresh_links) or view the menu to the left.
 
 Please note this project is no longer being maintained, but you can see a screen recording of the site <a href="https://natedelacruz.com/fresh-links">here</a>.
 
