@@ -1,6 +1,6 @@
 # Hello! 👋
 
-The following repo contains some older samples of my work, when I first started coding.
+The following repo contains some older samples of my work when I first started coding.
 
 Some of these projects are no longer live.
 
