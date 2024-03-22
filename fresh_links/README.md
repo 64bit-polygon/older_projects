@@ -2,7 +2,7 @@
 
 To see the code click [here](https://github.com/64bit-polygon/older_projects/tree/main/fresh_links) or view the menu to the left.
 
-Please note this project is no longer being maintained, but you can see a screen recording of the site <a href="https://natedelacruz.com/fresh-links">here</a>.
+Please note this project is no longer being maintained, but you can see a screen recording of the site [here](https://natedelacruz.com/fresh-links).
 
 Fresh links is a cloud-based RSS reader built with WordPress. The user’s posts appear in a timeline and are stripped free of ads, superfluous HTML, and with their full text. The articles can be automatically deleted after some amount of time has passed (to prevent inbox build up), listed in the timeline indefinitely, or saved into a separate section.
 

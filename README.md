@@ -6,7 +6,7 @@ Some of these projects are no longer live.
 
 # [Fresh links](https://github.com/64bit-polygon/older_projects/blob/main/fresh_links/README.md)
 
-Fresh links was a cloud-based RSS reader built with WordPress. The user’s posts appeared in a timeline and are stripped free of ads, superfluous HTML, and with their full text. The articles could be automatically deleted after a user set amount of time, listed in the timeline indefinitely, or saved into a separate section. [Here's recording](https://natedelacruz.com/fresh-links) of it.
+Fresh links was a cloud-based RSS reader built with WordPress. The user’s posts appeared in a timeline and are stripped free of ads, superfluous HTML, and with their full text. The articles could be automatically deleted after a user set amount of time, listed in the timeline indefinitely, or saved into a separate section. [Here's a recording](https://natedelacruz.com/fresh-links) of it.
 
 `WordPress`, `PHP`, `JS`, `HTML`, `CSS`
 
@@ -18,6 +18,6 @@ This is a simple descrambler I made as part of a coding assessment for a potenti
 
 # [Mr Meteor](https://github.com/64bit-polygon/older_projects/blob/main/mr_meteor/README.md)
 
-Mr Meteor was the portfolio site of a Boston-based animation studio. It showcased short animation, comics, and original art. The site is a custom WordPress theme designed to anticipate the client’s needs, allowing for minute control over styling thus permitting a wide variety of content. [Here's recording](https://natedelacruz.com/mr-meteor) of it.
+Mr Meteor was the portfolio site of a Boston-based animation studio. It showcased short animation, comics, and original art. The site is a custom WordPress theme designed to anticipate the client’s needs, allowing for minute control over styling thus permitting a wide variety of content. [Here's a recording](https://natedelacruz.com/mr-meteor) of it.
 
 `WordPress`, `PHP`, `JS`, `HTML`, `CSS`
