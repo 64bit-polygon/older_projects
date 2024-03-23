@@ -10,7 +10,7 @@ Fresh links was a cloud-based RSS reader built with WordPress. The user’s post
 
 `WordPress`, `PHP`, `JS`, `HTML`, `CSS`
 
-# [descrambler](https://github.com/64bit-polygon/older_projects/blob/main/descrambler/README.md)
+# [Descrambler](https://github.com/64bit-polygon/older_projects/blob/main/descrambler/README.md)
 
 This is a simple descrambler I made as part of a coding assessment for a potential employer several years ago. To descramble the initial message, click "descramble". You can then put any chunk of text into the textarea to create a scrambled message. You can see the live version [here](https://descrambler-35eb1.web.app/).
 
